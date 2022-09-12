@@ -17,10 +17,10 @@
     <!-- BEGIN nav bar -->
     <div class="container-fluid">
 
-        <nav class="navbar navbar-light bg-light fixed-top">
+        <nav class="navbar navbar-light fixed-top">
             <!-- brand image left side of nav bar -->
             <a class="navbar-brand" href="#">
-                <img src="./assets/images/hifi dragonfly-B6.png" width="30" height="30" class="d-inline-block align-top"
+                <img src="./assets/images/logo1.png" width="30" height="30" class="d-inline-block align-top"
                     alt="hifidragonfly logo">
                 hifidragonfly
             </a>
@@ -43,19 +43,18 @@
     </div>
     <!-- END nav bar -->
 
-    <!-- BEGIN header banner image -->
+    <!-- BEGIN jumbotron header banner image -->
     <!-- add breaks for spacing -->
     <br/><br/><br/>
-    <div class="container-fluid">
-        <div class="jumbotron bg-transparent">
-            <h1 class="display-4">hifidragonfly</h1>
-          </div>
+    <div id="logo-banner" class="container-fluid">
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        
     </div>
-    <!-- END header banner image -->
+    <!-- END jumbotron header banner image -->
 
 
     <!-- BEGIN links section -->
-    <div class="container-fluid">
+    <div id="section-links" class="container-fluid">
         <h3 class="text-center">links</h3>
         <!-- dedicated row for spotify link -->
         <div class="row">
@@ -95,7 +94,7 @@
 
 
     <!-- BEGIN Updates Section -->
-    <div class="container-fluid">
+    <div id="section-updates" class="container-fluid">
         <br/>
         
         <h3 class="text-center">updates</h3>
@@ -109,27 +108,47 @@
     <!-- END Updates section -->
 
     <!-- BEGIN About Section -->
-    <div class="container-fluid">
+    <div id="section-about" class="container-fluid">
         <br/>
 
         <h3 class="text-center">about</h3>
         <p class="text-center">about me here</p>
 
     </div>
+    <!-- END About Section -->
 
     <!-- BEGIN Contact Section -->
-    <div class="container-fluid">
+    <div id="section-contact" class="container-fluid">
         <br/>
 
         <h3 class="text-center">contact</h3>
         <p class="text-center">contact info here here</p>
     </div>
-
-
     <!-- END Contact Section -->
 
-    <!-- END About Section -->
+    <!-- BEGIN footer -->
+    <div class="container-fluid">
+        <br/>
 
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                <img id="footer-logo" class="img-fluid" src="./assets/images/logo1.png" alt="footer hifidragonfly logo"/>
+              </a>
+              <span class="text-muted">© 2022 hifidragonfly</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <!-- This is where to insert the minilogos for spotify SC, Bandcamp, etc -->
+              <li class="ms-3"><a class="text-muted" href="#"></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"></a></li>
+              <li class="ms-3"><a class="text-muted" href="#"></a></li>
+            </ul>
+          </footer>
+
+    </div>
+
+    <!-- END footer -->
 
     <!-- Bootstrap JS CDN links -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

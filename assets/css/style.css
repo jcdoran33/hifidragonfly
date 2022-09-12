@@ -1,1 +1,67 @@
-/* add background image for jumbotron */
+/* body */
+body {
+    background-color:rgb(230, 248, 242) !important;
+}
+
+/* adjust size of main image logo banner */
+#logo-banner {
+    background-image: url("../images/logo1.png");
+    background-size: cover;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+/* adjust h3 header text */
+h3 {
+    color:  #c19a6b ;
+}
+
+/* adjust <a> tag text */
+a {
+    color: #c19a6b;
+}
+
+/* adjust .card */
+.card {
+    background-color:rgb(249, 248, 248)!important;
+}
+
+p {
+    background-color:rgb(249, 248, 248)!important;
+    color: #c19a6b;
+}
+
+/* adjust size of footer logo img */
+#footer-logo {
+    max-height: auto;
+    max-width: 70px;
+}
+
+/* nav bar color adjustments */
+nav {
+    background-color:rgb(249, 248, 248)!important;
+    /* background-color: #c19a6b */
+}
+
+footer {
+    background-color:rgb(249, 248, 248)!important;
+}
+
+#section-links {
+    background-color:rgb(230, 248, 242) !important; 
+     
+}
+
+#section-updates {
+    background-color:rgb(230, 248, 242) !important;
+}
+
+#section-about {
+    background-color:rgb(230, 248, 242) !important;
+}
+
+#section-contact {
+    background-color:rgb(230, 248, 242) !important;
+}
