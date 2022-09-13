@@ -54,6 +54,13 @@ body {
     margin: 5px;
 }
 
+/* footer-icons class to adjust size of icons in footer */
+.footer-icons {
+    height: 25px;
+    width: 25px;
+    margin: 3px;
+}
+
 .link-btn:hover {
     box-shadow: 5px 5px lightslategray;
 }
