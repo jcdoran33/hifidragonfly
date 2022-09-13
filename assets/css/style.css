@@ -12,6 +12,10 @@ body {
     color: #c19a6b !important;
 }
 
+.navbar-nav > .nav-item {
+    color: #c19a6b !important;
+}
+
 /* adjust size of main image logo banner */
 #logo-banner {
     background-image: url("../images/logo1.png");
