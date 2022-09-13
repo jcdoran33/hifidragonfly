@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-color:rgb(230, 248, 242) !important;
+    background-color: rgb(230, 248, 242) !important;
 }
 
 /* adjust size of main image logo banner */
@@ -14,13 +14,32 @@ body {
     background-origin: border-box;
 }
 
+/* BEGIN spin logo on hover */
+#logo-banner:hover {
+    /* -webkit-animation: rotateY 1s infinite linear; */
+    animation: rotateY 3s infinite linear;
+}
+
+/* @-webkit-keyframes rotateY {
+    to {
+        -webkit-transform: rotateY(360deg);
+    }
+} */
+
+@keyframes rotateY {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+/* END logo animation */
+
 .link-btn:hover {
     box-shadow: 5px 5px lightslategray;
 }
 
 /* adjust h3 header text */
 h3 {
-    color:  #c19a6b ;
+    color: #c19a6b;
 }
 
 /* adjust <a> tag text */
@@ -30,11 +49,11 @@ a {
 
 /* adjust .card */
 .card {
-    background-color:rgb(249, 248, 248)!important;
+    background-color: rgb(249, 248, 248) !important;
 }
 
 p {
-    background-color:rgb(249, 248, 248)!important;
+    background-color: rgb(230, 248, 242) !important;
     color: #c19a6b;
 }
 
@@ -46,27 +65,27 @@ p {
 
 /* nav bar color adjustments */
 nav {
-    background-color:rgb(249, 248, 248)!important;
+    background-color: rgb(249, 248, 248) !important;
     /* background-color: #c19a6b */
 }
 
 footer {
-    background-color:rgb(249, 248, 248)!important;
+    background-color: rgb(249, 248, 248) !important;
 }
 
 #section-links {
-    background-color:rgb(230, 248, 242) !important; 
-     
+    background-color: rgb(230, 248, 242) !important;
+
 }
 
 #section-updates {
-    background-color:rgb(230, 248, 242) !important;
+    background-color: rgb(230, 248, 242) !important;
 }
 
 #section-about {
-    background-color:rgb(230, 248, 242) !important;
+    background-color: rgb(230, 248, 242) !important;
 }
 
 #section-contact {
-    background-color:rgb(230, 248, 242) !important;
+    background-color: rgb(230, 248, 242) !important;
 }
