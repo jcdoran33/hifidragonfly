@@ -3,6 +3,15 @@ body {
     background-color: rgb(230, 248, 242) !important;
 }
 
+/* adjust color of nav bar title text */
+#nav-bar-title-text {
+    color: #c19a6b;
+}
+
+#footer-text {
+    color: #c19a6b !important;
+}
+
 /* adjust size of main image logo banner */
 #logo-banner {
     background-image: url("../images/logo1.png");
