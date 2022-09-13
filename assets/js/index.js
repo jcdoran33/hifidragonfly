@@ -25,7 +25,7 @@ menuOptions.addEventListener("click", autoCollapse);
 
 //setup scroll / viewport based animation for section headers h3s
 let options = {
-    // root: document.querySelector("#section-links"),
+    // root: document.querySelector("#section-contact"),
     root: null,
     rootMargin: '0px',
     threshold: 1.0
@@ -44,3 +44,41 @@ const scrollAnimationFade = () => {
 let observer = new IntersectionObserver(scrollAnimationFade, options);
 
 observer.observe(document.querySelector("#section-links"));
+
+// new - make fade in animation individualized for each section
+
+// //LINKS section fade in - resuse options object
+// const scrollAnimationLinks = () => {
+//     console.log("Links section animation triggered");
+//     const links = document.querySelector("#section-links");
+//     links.classList.add("scrolled");
+// };
+// let observerLinks = new IntersectionObserver(scrollAnimationLinks, options);
+// observerLinks.observe(document.querySelector("#section-links"));
+
+// //UPDATES section fade in - resuse options object
+// const scrollAnimationUpdates = () => {
+//     console.log("Updates section animation triggered");
+//     const updates = document.querySelector("#section-updates");
+//     updates.classList.add("scrolled");
+// };
+// let observerUpdates = new IntersectionObserver(scrollAnimationUpdates, options);
+// observerUpdates.observe(document.querySelector("#section-updates"));
+
+// //ABOUT section fade in - resuse options object
+// const scrollAnimationAbout = () => {
+//     console.log("About section animation triggered");
+//     const about = document.querySelector("#section-about");
+//     about.classList.add("scrolled");
+// };
+// let observerAbout = new IntersectionObserver(scrollAnimationAbout, options);
+// observerAbout.observe(document.querySelector("#section-about"));
+
+// //CONTACT section fade in - resuse options object
+// const scrollAnimationContact = () => {
+//     console.log("Contact section animation triggered");
+//     const contact = document.querySelector("#section-contact");
+//     contact.classList.add("scrolled");
+// };
+// let observerContact = new IntersectionObserver(scrollAnimationContact, options);
+// observerContact.observe(document.querySelector("#section-contact"));

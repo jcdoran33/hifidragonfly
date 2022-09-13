@@ -96,7 +96,7 @@ footer {
 
 .js-scroll {
     opacity: 0;
-    transition: opacity 1000ms;
+    transition: opacity 4000ms;
 }
 
 .js-scroll.scrolled {
