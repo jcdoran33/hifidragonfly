@@ -7,9 +7,11 @@ body {
 #logo-banner {
     background-image: url("../images/logo1.png");
     background-size: cover;
-    display: inline-block;
-    height: auto;
-    max-width: 100%;
+    /* display: inline-block; */
+    /* height: auto; */
+    /* max-width: 100%; */
+    background-position: center !important;
+    background-origin: border-box;
 }
 
 .link-btn:hover {
