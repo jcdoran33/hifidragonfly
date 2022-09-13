@@ -47,6 +47,13 @@ body {
 
 /* END logo animation */
 
+/* link-icons class - adjust the size of the link icons for social links */
+.link-icons {
+    height:35px;
+    width: 35px;
+    margin: 5px;
+}
+
 .link-btn:hover {
     box-shadow: 5px 5px lightslategray;
 }
