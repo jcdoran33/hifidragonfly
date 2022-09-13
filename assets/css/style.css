@@ -31,6 +31,7 @@ body {
         transform: rotateY(360deg);
     }
 }
+
 /* END logo animation */
 
 .link-btn:hover {
@@ -89,3 +90,17 @@ footer {
 #section-contact {
     background-color: rgb(230, 248, 242) !important;
 }
+
+
+/* trail run - scroll fade in animation */
+
+.js-scroll {
+    opacity: 0;
+    transition: opacity 1000ms;
+}
+
+.js-scroll.scrolled {
+    opacity: 1;
+}
+
+/* end fade in animation */

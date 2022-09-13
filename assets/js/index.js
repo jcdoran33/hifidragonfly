@@ -21,3 +21,26 @@ function autoCollapse() {
 
 // click listener to trigger the auto-collapse of the nav menu
 menuOptions.addEventListener("click", autoCollapse);
+
+
+//setup scroll / viewport based animation for section headers h3s
+let options = {
+    // root: document.querySelector("#section-links"),
+    root: null,
+    rootMargin: '0px',
+    threshold: 1.0
+};
+
+//this function below make ALL the sections fade in once the section-links is visible in the view port
+const scrollAnimationFade = () => {
+    console.log("TEST - scrollAnimationFade function has been called");
+    const jsScrollElements = document.querySelectorAll(".js-scroll"); //ID all elements with the class js-scroll
+
+    for (const jsScrollElement of jsScrollElements) {
+        jsScrollElement.classList.add("scrolled");
+    }
+};
+
+let observer = new IntersectionObserver(scrollAnimationFade, options);
+
+observer.observe(document.querySelector("#section-links"));
