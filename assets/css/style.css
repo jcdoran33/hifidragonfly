@@ -60,6 +60,10 @@ body {
     width: 25px;
     margin: 3px;
 }
+/* add footer-icon hover effects - This is not functioning correctly */
+/* #footer-icons:hover {
+    box-shadow: 5px 5px lightslategray !important;
+} */
 
 /* add hover shadow on all link buttons */
 .link-btn:hover {
@@ -68,6 +72,10 @@ body {
 /* adjust hover properties of text within link btn */
 .link-btn > a:hover {
     color: #c19a6b;
+}
+/* adjust link-btn border color */
+.link-btn {
+    border-color:#c19a6b !important;
 }
 
 /* adjust h3 header text */
