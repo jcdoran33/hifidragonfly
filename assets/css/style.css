@@ -20,24 +20,14 @@ body {
 #logo-banner {
     background-image: url("../images/logo1.png");
     background-size: cover;
-    /* display: inline-block; */
-    /* height: auto; */
-    /* max-width: 100%; */
     background-position: center !important;
     background-origin: border-box;
 }
 
 /* BEGIN spin logo on hover */
 #logo-banner:hover {
-    /* -webkit-animation: rotateY 1s infinite linear; */
     animation: rotateY 3s infinite linear;
 }
-
-/* @-webkit-keyframes rotateY {
-    to {
-        -webkit-transform: rotateY(360deg);
-    }
-} */
 
 @keyframes rotateY {
     to {
