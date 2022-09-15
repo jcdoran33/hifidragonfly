@@ -34,20 +34,31 @@ let options = {
 //this function below make ALL the sections fade in once the section-links is visible in the view port
 const scrollAnimationFade = () => {
     console.log("TEST - scrollAnimationFade function has been called");
+    
     const jsScrollElements = document.querySelectorAll(".js-scroll"); //ID all elements with the class js-scroll
 
     for (const jsScrollElement of jsScrollElements) {
-        jsScrollElement.classList.add("scrolled");
-    }
+        // console.log("TEST - isIntersecting value: ", jsScrollElement.isIntersecting);
+        // if (jsScrollElement.isIntersecting) {
+            jsScrollElement.classList.add("scrolled");
+        // } else {
+        //     console.log("Error console log - jsScrollElement is not intersecting (or isIntersecting is coming back undefined)");
+        // }
+    };
 };
 
-let observer = new IntersectionObserver(scrollAnimationFade, options);
+function observerCreator(){
+    let observer = new IntersectionObserver(scrollAnimationFade, options);
 
-observer.observe(document.querySelector("#section-links"));
+    observer.observe(document.querySelector("#section-links"));
+};
+
+setTimeout(observerCreator,1000);
+
 
 // new - make fade in animation individualized for each section
 
-// //LINKS section fade in - resuse options object
+//LINKS section fade in - resuse options object
 // const scrollAnimationLinks = () => {
 //     console.log("Links section animation triggered");
 //     const links = document.querySelector("#section-links");
