@@ -61,8 +61,13 @@ body {
     margin: 3px;
 }
 
+/* add hover shadow on all link buttons */
 .link-btn:hover {
     box-shadow: 5px 5px lightslategray;
+}
+/* adjust hover properties of text within link btn */
+.link-btn > a:hover {
+    color: #c19a6b;
 }
 
 /* adjust h3 header text */
